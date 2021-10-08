@@ -3,19 +3,24 @@ body {
     margin: 0;
 }
 
-.header {
+.top-container {
     background-color: #185720;
+}
+
+.header {
+    width: 75%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     color: #F9FAF8;
     font-style: italic;
     font-weight: bold;
-    padding: 18px;
+    padding-top: 20px;
 }
 
 .nav-links {
@@ -26,7 +31,7 @@ body {
 }
 
 .nav-links ul {
-    padding: 8px;
+    
     margin: 0;
     list-style: none;
     display: flex;
@@ -42,3 +47,20 @@ body {
 .nav-links a:hover {
     text-shadow: 2px 2px 3px #000000;
 }
+
+.hero img {
+    width: 40%;
+    height: auto;
+}
+
+.hero {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 75%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
