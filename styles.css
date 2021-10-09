@@ -4,8 +4,8 @@ body {
 }
 
 .top-container {
-    background-color: #087717;
-    padding-bottom: 15px;
+    background-color: #1f2937;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -29,6 +29,7 @@ body {
     color: #E5E7EB;
     display: flex;
     gap: 15px;
+    padding-top: 18px;  
 }
 
 .nav-links ul {
@@ -67,9 +68,9 @@ body {
 }
 
 button {
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    background-color: #10b359;
+    background-color: #3ea32a;
     color:#E5E7EB;
 }
 
@@ -80,7 +81,7 @@ button {
 .boxes img {
     width: 115px;
     height: 115px;
-    border: 3px solid rgb(87, 107, 87);
+    border: 3px solid #1f2937;
     border-radius: 5px;
     padding: 20px;
 }
@@ -110,16 +111,56 @@ button {
 .quote-container {
     width: 55%;
     margin: auto;
-    padding: 15px;
+    padding: 50px;
 }
 
 .quote {
     font-size: 25px;
     font-style: italic;
-    line-height: 1.3em;    
+    line-height: 1.4em;   
+    padding: 5px; 
 }
 
 .quote-source {
     font-size: 18px;
     text-align: right;
 }
+
+.CTA-container {
+    padding: 50px;
+}
+
+.CTA {
+    background-color: #3ea32a;
+    color: #F9FAF8;
+    width: 65%;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+}
+
+.CTA-button {
+    flex-basis: 25%;
+}
+
+.CTA-button button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer-container {
+    background-color:#1f2937;
+    margin: 0;
+}
+
+.footer {
+    color: #F9FAF8;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
