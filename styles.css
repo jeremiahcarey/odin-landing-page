@@ -4,11 +4,12 @@ body {
 }
 
 .top-container {
-    background-color: #185720;
+    background-color: #087717;
+    padding-bottom: 15px;
 }
 
 .header {
-    width: 75%;
+    width: 65%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -16,11 +17,11 @@ body {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 28px;
     color: #F9FAF8;
     font-style: italic;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 .nav-links {
@@ -49,18 +50,54 @@ body {
 }
 
 .hero img {
-    width: 40%;
+    width: 350px;
     height: auto;
 }
 
 .hero {
     font-size: 18px;
     color: #e5e7eb;
-    width: 75%;
+    width: 65%;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #10b359;
+    color:#E5E7EB;
+}
+
+.why-container {
+    text-align: center;
+}
+
+.boxes img {
+    width: 115px;
+    height: 115px;
+    border: 3px solid rgb(87, 107, 87);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxes h1 {
+    font-size: 36px;
+
+}
+
+.boxes {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.box {
+    flex: 1;
+}
