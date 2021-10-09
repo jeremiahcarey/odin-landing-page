@@ -101,3 +101,25 @@ button {
 .box {
     flex: 1;
 }
+
+.quote-container-back {
+    margin: 0;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 55%;
+    margin: auto;
+    padding: 15px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.3em;    
+}
+
+.quote-source {
+    font-size: 18px;
+    text-align: right;
+}
